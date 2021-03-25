@@ -7,13 +7,13 @@ def do_fizzbuzz():
     curr = 1
     while curr < end:
         if curr % 3 == 0:
-	    print("fizz")
+            print("fizz")
         else if curr % 5 == 0:
-	    print("buzz")
+            print("buzz")
         else if curr % 15 == 0:
-	    print("fizzbuzz")
+            print("fizzbuzz")
         else:
-	    print(curr)
+            print(curr)
         curr += 1
 
 if __name__ == "__main__":
