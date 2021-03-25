@@ -6,15 +6,15 @@ def do_fizzbuzz():
     end = user_input
     curr = 1
     while curr < end:
-	if curr % 3 == 0:
+        if curr % 3 == 0:
 	    print("fizz")
-	else if curr % 5 == 0:
+        else if curr % 5 == 0:
 	    print("buzz")
-	else if curr % 15 == 0:
+        else if curr % 15 == 0:
 	    print("fizzbuzz")
-	else:
+        else:
 	    print(curr)
-	curr += 1
+        curr += 1
 
 if __name__ == "__main__":
     do_fizzbuzz()
