@@ -8,9 +8,9 @@ def do_fizzbuzz():
     while curr < end:
         if curr % 3 == 0:
             print("fizz")
-        else if curr % 5 == 0:
+        elif curr % 5 == 0:
             print("buzz")
-        else if curr % 15 == 0:
+        elif curr % 15 == 0:
             print("fizzbuzz")
         else:
             print(curr)
